@@ -1,7 +1,12 @@
 <script>
+import { store } from '../store.js'
 export default {
     name: 'ThisHeader',
-
+    data() {
+        return {
+            store,
+        }
+    }
 }
 </script>
 
@@ -15,13 +20,7 @@ export default {
                 </div>
                 <div class="navlink">
                     <ul>
-                        <li>Home <i class="fa-solid fa-chevron-down"></i></li>
-                        <li>Home</li>
-                        <li>Home</li>
-                        <li>Home</li>
-                        <li>Home</li>
-                        <li>Home</li>
-                        <li>Home</li>
+                        <li v-for=" element in store.link ">{{ element.nav }} <i class="fa-solid fa-chevron-down"></i></li>
                     </ul>
                 </div>
                 <div class="social">
@@ -83,7 +82,7 @@ export default {
 
 
             li {
-                margin-left: 10px;
+                margin-left: 30px;
 
 
                 i {

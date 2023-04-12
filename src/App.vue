@@ -1,8 +1,16 @@
 <script>
 import ThisHeader from './components/TheHeader.vue'
+import ThisMain from './components/ThisMain.vue'
+import { store } from './store.js'
 export default {
   components: {
     ThisHeader,
+    ThisMain,
+  },
+  data() {
+    return {
+      store
+    }
   }
 }
 
@@ -13,7 +21,7 @@ export default {
     <ThisHeader />
   </header>
   <main>
-
+    <ThisMain />
   </main>
   <footer>
 
@@ -25,6 +33,6 @@ export default {
   margin: 0;
   padding: 0;
   box-sizing: border-box;
-  font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+  font-family: 'Times New Roman', Times, serif;
 }
 </style>
