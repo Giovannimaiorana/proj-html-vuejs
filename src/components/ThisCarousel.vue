@@ -13,6 +13,12 @@ export default {
 
 <template>
     <div class="containerContent">
+        <div class="counterPhoto">
+            <i class="fa-solid fa-caret-up"></i>
+            <span>1/4</span>
+            <i class="fa-solid fa-caret-down"></i>
+
+        </div>
         <div class="containerText">
             <div class="text">
                 <h3>REAL STORIES</h3>
@@ -21,12 +27,6 @@ export default {
                 <img src="../assets/testimonial-avata-02.jpg" alt="">
                 <span>Mina Hollance</span>
                 <span class="travel">/Freelancer</span>
-                <div class="counterPhoto">
-                    <i class="fa-solid fa-caret-up"></i>
-                    <span>1/4</span>
-                    <i class="fa-solid fa-caret-down"></i>
-
-                </div>
             </div>
         </div>
         <div class="containerImg">
@@ -39,6 +39,7 @@ export default {
 .containerContent {
     display: flex;
     margin-top: 100px;
+    position: relative;
 }
 
 .containerText {
@@ -103,5 +104,13 @@ export default {
     flex-direction: column;
     justify-content: center;
     border-radius: 50%;
+    position: absolute;
+    left: 47%;
+    top: 50%;
+    cursor: pointer;
+
+    i {
+        color: lightgrey;
+    }
 }
 </style>
