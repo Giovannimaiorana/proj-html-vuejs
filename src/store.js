@@ -121,5 +121,29 @@ export const store = reactive({
             titolo: 'Real man 4.0 by Maxcoach',
             price: '$39.00',
         }
+    ],
+    partner: [
+        {
+            logo: "client-logo-01-primary.png"
+        },
+        {
+            logo: "client-logo-02-primary.png"
+        },
+        {
+            logo: "client-logo-03-primary.png"
+        },
+        {
+            logo: "client-logo-04-primary.png"
+        },
+
+        {
+            logo: "client-logo-05-primary.png"
+        },
+        {
+            logo: "client-logo-06-primary.png"
+        },
+        {
+            logo: "client-logo-07-primary.png"
+        },
     ]
 })
