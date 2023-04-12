@@ -1,11 +1,14 @@
 <script>
 import ThisHeader from './components/TheHeader.vue'
 import ThisMain from './components/ThisMain.vue'
+import ThisFooter from './components/ThisFooter.vue'
 import { store } from './store.js'
 export default {
   components: {
     ThisHeader,
     ThisMain,
+    ThisFooter,
+
   },
   data() {
     return {
@@ -24,7 +27,7 @@ export default {
     <ThisMain />
   </main>
   <footer>
-
+    <ThisFooter />
   </footer>
 </template>
 
