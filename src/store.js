@@ -145,5 +145,32 @@ export const store = reactive({
         {
             logo: "client-logo-07-primary.png"
         },
+    ],
+    blog: [
+        {
+            immagine: "motivation-blog-04-480x325.jpg",
+            date: 'May 13, 2020',
+            titolo: 'How to Say True to Your Personal Brand ',
+            descri: 'When it comes, to your business or career, you want...',
+        },
+        {
+            immagine: "motivation-blog-03-480x325.jpg",
+            date: 'May 13, 2020',
+            titolo: '5 Vital Lessons in 5 Years of Freelancing ',
+            descri: 'Being self-employed and working from home, it easy tp get...',
+        },
+        {
+            immagine: "motivation-blog-02-480x325.jpg",
+            date: 'May 13, 2020',
+            titolo: '11 Super Useful Tips for Small-Business Owners ',
+            descri: 'Being a small-business owner poses a ton od challenges. We...',
+        },
+        {
+            immagine: "motivation-blog-01-480x325.jpg",
+            date: 'May 13, 2020',
+            titolo: 'How to Give Yourself Grace to Start Again ',
+            descri: 'Forgive yourself for bad habits you may have started or...',
+        },
     ]
+
 })
