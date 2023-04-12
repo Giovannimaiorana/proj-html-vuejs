@@ -90,12 +90,24 @@ export default {
                     cursor: pointer;
                 }
             }
+
+            li:hover {
+                color: rgb(34, 173, 150);
+
+                font-weight: bolder
+            }
+
         }
     }
 
     .social {
         span {
             margin-left: 10px;
+            font-size: 20px;
+        }
+
+        span:hover {
+            color: rgb(34, 173, 150);
         }
     }
 }
@@ -125,6 +137,10 @@ export default {
             border-radius: 5px;
             cursor: pointer;
             background-color: rgb(34, 173, 150);
+        }
+
+        button:hover {
+            background-color: rgb(63, 58, 100);
         }
     }
 

@@ -30,6 +30,13 @@ export default {
                 <img :src='getImg(element.immagine)' alt="">
                 <h3>{{ element.titolo }}</h3>
                 <h2>{{ element.price }}</h2>
+                <div class="containerHover">
+                    <span><i class="fa-solid fa-magnifying-glass"></i></span>
+                    <span><i class="fa-solid fa-cart-shopping"></i></span>
+                    <span><i class="fa-regular fa-heart"></i></span>
+                    <span><i class="fa-solid fa-signal"></i></span>
+
+                </div>
             </div>
 
         </div>
@@ -81,6 +88,10 @@ export default {
             background-color: rgb(34, 173, 150);
             margin-top: 20px;
         }
+
+        button:hover {
+            background-color: rgb(63, 58, 100);
+        }
     }
 
 
@@ -89,6 +100,8 @@ export default {
 .containerImg {
     display: flex;
     width: 700px;
+    height: 400px;
+    position: relative;
 
     h3 {
         text-align: center;
@@ -104,6 +117,41 @@ export default {
     .card {
         margin-left: 50px;
         margin-right: 50px;
+    }
+
+    .containerHover {
+        display: flex;
+        flex-direction: column;
+        position: absolute;
+        top: 70px;
+        display: none;
+
+
+
+
+        span {
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            margin-bottom: 20px;
+            background-color: white;
+            width: 40px;
+            height: 40px;
+
+            border-radius: 50%;
+            cursor: pointer;
+
+        }
+    }
+
+
+}
+
+.containerImg:hover .containerHover {
+    display: flex;
+
+    span {
+        color: rgb(34, 173, 150);
     }
 }
 </style>

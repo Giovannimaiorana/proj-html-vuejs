@@ -79,6 +79,10 @@ ul {
     }
 }
 
+li:hover {
+    color: rgb(54, 173, 150);
+}
+
 .containerGeneral {
     display: flex;
 

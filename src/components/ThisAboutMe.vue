@@ -132,6 +132,20 @@ export default {
             justify-content: center;
         }
 
+        .containerImg:hover img {
+            width: 150px;
+            cursor: pointer;
+        }
+
+        .containerImg:hover img {
+            width: 150px;
+            cursor: pointer;
+        }
+
+
+
+
+
         .descriptionContainer {
             width: 400px;
             height: 400px;

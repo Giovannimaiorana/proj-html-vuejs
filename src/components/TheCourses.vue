@@ -38,6 +38,12 @@ export default {
 </template>
 
 <style scoped lang="scss">
+.cardList:hover img {
+    width: 370px;
+    box-shadow: 10px 10px 5px lightgrey;
+
+}
+
 .containerList {
     width: 1300px;
     margin: auto;
@@ -104,6 +110,10 @@ h1 {
         border-radius: 5px;
         cursor: pointer;
         background-color: rgb(34, 173, 150);
+    }
+
+    button:hover {
+        background-color: rgb(63, 58, 100);
     }
 }
 </style>

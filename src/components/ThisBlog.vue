@@ -49,7 +49,13 @@ export default {
         text-decoration: underline;
     }
 
+    .cardList:hover .card {
+        box-shadow: 10px 10px 5px lightgrey;
+
+    }
+
 }
+
 
 .containerTitle {
     margin-top: 100px;
