@@ -46,7 +46,6 @@ export default {
         </div>
 
     </div>
-    <h5>2020 Mxcoach. All Rights Reserved</h5>
 </template>
 
 <style scoped lang="scss">
